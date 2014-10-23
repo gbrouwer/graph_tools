@@ -403,7 +403,7 @@ if __name__ == '__main__':
 
 
 	#Create Graph
-	graph.create(25,0.5)
+	graph.create(25,0.35)
 
 
 	
@@ -432,9 +432,9 @@ if __name__ == '__main__':
 
 	
 	#Minimum Spanning Tree
-	#graph.computeMST()
+	graph.computeMST()
 
 
 
 	#Visualize
-	graph.show('centrality')
+	graph.show('MST')
